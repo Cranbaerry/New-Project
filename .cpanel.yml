@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/dreamzt53/test_site/
+    - /bin/cp -R * $DEPLOYPATH
